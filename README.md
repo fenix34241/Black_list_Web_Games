@@ -14,7 +14,7 @@ Una lista negra (blacklist) curada de dominios de juegos web accesibles vía nav
 2.  Navega a **Group Management** > **Adlists**.
 3.  Añade la siguiente URL como nueva lista:
     ```text
-    https://raw.githubusercontent.com/[TU_USUARIO]/[NOMBRE_DEL_REPO]/main/blocklist_games.txt
+    https://raw.githubusercontent.com/fenix34241/Black_list_Web_Games/refs/heads/main/browser-games-blacklis.txt
     ```
 4.  Haz clic en "Add" y luego ejecuta un **Gravity Update**.
 
