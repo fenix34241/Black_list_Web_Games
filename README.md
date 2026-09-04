@@ -1,14 +1,13 @@
-# 🚫 Browser Games Blocklist
+#  Browser Games Blocklist
 
 Una lista negra (blacklist) curada de dominios de juegos web accesibles vía navegador. Diseñada para facilitar el bloqueo de sitios de gaming en entornos corporativos, educativos o domésticos mediante herramientas de filtrado de DNS.
 
-## 📋 Características
+##  Características
 *   **Formato compatible:** Pi-hole, AdGuard Home, `/etc/hosts`, y la mayoría de firewalls/proxies.
-*   **Actualización frecuente:** La lista se mantiene al día con nuevos dominios de juegos emergentes.
 *   **Cobertura:** Incluye portales populares (como Y8, Poki, CrazyGames), juegos .io, plataformas de emulación web y sitios de juegos casuales.
 *   **Total de dominios:** +640 entradas únicas.
 
-## 🛠️ Cómo usarla
+##  Cómo usarla
 
 ### Para Pi-hole
 1.  Ve a tu panel de administración de Pi-hole.
@@ -29,14 +28,14 @@ Puedes añadir el contenido del archivo `blocklist_games.txt` directamente a tu 
 *   **Linux/Mac:** `/etc/hosts`
 *   **Windows:** `C:\Windows\System32\drivers\etc\hosts`
 
-> ⚠️ **Nota:** Al usar el formato `0.0.0.0 dominio.com`, asegúrate de no tener conflictos con otras entradas en tu archivo hosts local.
+> ! **Nota:** Al usar el formato `0.0.0.0 dominio.com`, asegúrate de no tener conflictos con otras entradas en tu archivo hosts local.
 
-## ⚠️ Advertencia Importante
+## ! Advertencia Importante
 Esta lista bloquea dominios genéricos de juegos. Algunos de estos dominios pueden compartir infraestructura con sitios legítimos o contener otros tipos de contenido. 
 *   **Revisa antes de desplegar:** Se recomienda probar la lista en un entorno controlado antes de aplicarla a toda la red.
 *   **Falsos positivos:** Si encuentras un sitio legítimo bloqueado por error, por favor abre un **Issue** en este repositorio.
 
-## 🤝 Contribuciones
+##  Contribuciones
 ¿Has encontrado un nuevo sitio de juegos web que no está en la lista? ¡Las contribuciones son bienvenidas!
 1.  Haz un Fork del repositorio.
 2.  Añade los nuevos dominios al final del archivo `blocklist_games.txt`.
