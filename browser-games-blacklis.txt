@@ -538,7 +538,6 @@
 ||google-snake-game.com^
 ||google-snake.com^
 ||google-snake.net^
-||google.com^
 ||googledino.com^
 ||googledino.net^
 ||googlesnake.es^
